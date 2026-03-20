@@ -31,7 +31,7 @@ function startQuiz() {
 // Load Question
 function loadQuestion() {
   clearInterval(timer);
-  timeLeft = 10;
+  timeLeft = 20;
 
   document.getElementById("timer").innerText = timeLeft;
   document.getElementById("result").innerText = "";
